@@ -54,3 +54,20 @@ h1 {
 .btn:hover {
     background-color: #0056b3;
 }
+
+#next-btn {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+
+#next-btn:hover {
+    background-color: #218838;
+}
