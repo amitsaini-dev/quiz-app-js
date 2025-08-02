@@ -51,8 +51,12 @@ h1 {
     transition: background-color 0.3s;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
     background-color: #0056b3;
+}
+
+.btn:disabled {
+    cursor: no-drop;
 }
 
 #next-btn {
