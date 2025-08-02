@@ -71,3 +71,11 @@ h1 {
 #next-btn:hover {
     background-color: #218838;
 }
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
